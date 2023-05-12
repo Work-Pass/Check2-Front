@@ -1,0 +1,55 @@
+body{
+    padding: 25px;
+    background: gray;
+    padding-top: 0;
+}
+.descricao{
+
+
+}
+.descricao-titulo{
+
+}
+.resumo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.resumo-ficha{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.resumo-icones{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.resumo-compra{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.compra-preco{
+
+
+}
+.compra-botao {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.compra-botao:hover {
+    background-color: #3e8e41;
+}
+.compra-botao:active {
+    background-color: #1e5123;
+}
