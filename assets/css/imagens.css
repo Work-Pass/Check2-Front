@@ -3,7 +3,6 @@ body{
 }
 .galeria{
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
     margin: 50px;
     height: 500px;
     justify-content: space-evenly;
