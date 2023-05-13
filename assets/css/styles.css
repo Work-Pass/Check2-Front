@@ -1,18 +1,19 @@
+* {
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
 body{
     padding: 25px;
     background: gray;
     padding-top: 0;
 }
-.descricao{
-
-
-}
-.descricao-titulo{
-
+.nome-vinho{
+    font-weight: bold;
 }
 .resumo{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
 }
 .resumo-ficha{
@@ -30,10 +31,6 @@ body{
     justify-content: center;
     display: flex;
     flex-direction: column;
-}
-.compra-preco{
-
-
 }
 .compra-botao {
     background-color: #4CAF50;
